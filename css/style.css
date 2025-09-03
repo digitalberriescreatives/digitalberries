@@ -1,0 +1,63 @@
+body {
+      font-family: 'Inter', sans-serif;
+      background-color: #111213;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #333;
+      border-radius: 10px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #555;
+      border-radius: 10px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #777;
+    }
+    @keyframes dot-flashing {
+      0% { background-color: #00D692; }
+      50%, 100% { background-color: rgba(0, 214, 146, 0.2); }
+    }
+    .dot-flashing {
+      animation: dot-flashing 1s infinite linear alternate;
+    }
+    .dot-flashing::before {
+      content: ' ';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: rgba(0, 214, 146, 0.2);
+      border-radius: 50%;
+      margin: 0 2px;
+      animation: dot-flashing 1s infinite linear alternate;
+      animation-delay: 0s;
+    }
+    .dot-flashing::after {
+      content: ' ';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: rgba(0, 214, 146, 0.2);
+      border-radius: 50%;
+      margin: 0 2px;
+      animation: dot-flashing 1s infinite linear alternate;
+      animation-delay: 0.5s;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .hero-animated {
+      animation: fadeIn 0.8s ease-out;
+    }
+    .card-animated {
+      animation: fadeIn 0.5s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  
