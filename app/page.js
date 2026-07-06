@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import PlayerRadar from '@/components/PlayerRadar';
 import MomentumChart from '@/components/MomentumChart';
+import LiveScores from '@/components/LiveScores';
 
 const HeroScene = dynamic(() => import('@/components/three/HeroScene'), { ssr: false, loading: () => null });
 
@@ -985,7 +986,7 @@ function App() {
       <GlassNav />
       <Hero />
       <Ticker />
-      <LiveMatch />
+      <LiveScores />
       <TeamsSection />
       <BracketSection />
       <PlayerSpotlight />
