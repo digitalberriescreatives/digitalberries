@@ -1,0 +1,26 @@
+{
+  "router": {"name":"Chief","role":"AI executive team router"},
+  "executives": [
+    {"id":"revenue","name":"Revenue Officer","focus":["sales","revenue","pricing","upsell","pipeline","forecast"]},
+    {"id":"network","name":"Network Officer","focus":["networking","introductions","ecosystem","communities"]},
+    {"id":"partnerships","name":"Partnerships Officer","focus":["partnerships","alliances","collaborations","strategic partners"]},
+    {"id":"research","name":"Research Officer","focus":["market research","competitors","industry research","opportunities"]},
+    {"id":"scientific","name":"Scientific Officer","focus":["technical research","experiments","validation","evidence"]},
+    {"id":"service","name":"Service Officer","focus":["client delivery","support","retention","quality","accounts"]},
+    {"id":"supply-chain","name":"Supply Chain Officer","focus":["vendors","freelancers","resources","procurement","dependencies"]},
+    {"id":"strategy","name":"Strategy Officer","focus":["company strategy","priorities","planning","decision support"]},
+    {"id":"finance","name":"Finance Officer","focus":["cash flow","margins","budget","finance","profitability"]},
+    {"id":"marketing","name":"Marketing Officer","focus":["marketing strategy","positioning","brand","campaigns"]},
+    {"id":"growth","name":"Growth Officer","focus":["growth","acquisition","experiments","funnels","conversion"]},
+    {"id":"sales","name":"Sales Officer","focus":["prospecting","outreach","qualification","closing"]},
+    {"id":"client-success","name":"Client Success Officer","focus":["retention","renewals","client health","satisfaction"]},
+    {"id":"seo","name":"SEO Officer","focus":["SEO","GMB","content","backlinks","search rankings"]},
+    {"id":"performance","name":"Performance Marketing Officer","focus":["Meta Ads","Google Ads","ROAS","paid acquisition"]},
+    {"id":"creative","name":"Creative Officer","focus":["creative","design","campaign concepts","content"]},
+    {"id":"product","name":"Product Officer","focus":["Berry OS","product roadmap","requirements","prioritization"]},
+    {"id":"ai","name":"AI Officer","focus":["AI","agents","LLM","automation","integrations"]},
+    {"id":"engineering","name":"Engineering Officer","focus":["PHP","JavaScript","APIs","infrastructure","debugging","development"]},
+    {"id":"hr","name":"HR & Talent Officer","focus":["hiring","employees","freelancers","talent","people operations"]},
+    {"id":"investor-relations","name":"Investor Relations Officer","focus":["fundraising","investors","accelerators","applications","partnership decks"]}
+  ]
+}
